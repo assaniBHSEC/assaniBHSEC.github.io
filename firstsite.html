@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bard Intraweb</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+   <base target="_parent"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap"><link rel="stylesheet" href="https://mdbootstrap.com/api/snippets/static/download/MDB5-Free_7.3.2/css/mdb.min.css">
+</head>
+<body>
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+    <!-- Container wrapper -->
+    <div class="container">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="https://bhsec.bard.edu/manhattan/"><img id="Bard-logo"
+          src="https://www.bard.edu/files/pr/main_news_image.php?id=19475" alt="Bard Logo"
+          draggable="false" height="100" /></a>
+
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Left links -->
+        <ul class="navbar-nav me-3">
+          <li class="nav-item">
+            <a style="color:rgba(151, 16, 33, 1);" class="nav-link active d-flex align-items-center" aria-current="page" href=intranet.html><i 
+                class="fas fa-bars pe-2"></i>Summer Scholars Web Page</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+
+        <form class="d-flex align-items-center w-100 form-search">
+          <div  class="input-group">
+            <button class="btn btn-light dropdown-toggle shadow-0" type="button" data-mdb-toggle="dropdown"
+              aria-expanded="false" style="padding-bottom: 0.4rem;">
+              All
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark fa-ul">
+              <li>
+                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i class="fas fa-search"></i></span>All</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                      class="fas fa-film"></i></span>Titles</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i class="fas fa-tv"></i></span>TV
+                  Episodes</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                      class="fas fa-user-friends"></i></span>Celebs</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                      class="fas fa-building"></i></span>Companies</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                      class="fas fa-key"></i></span>Keywords</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                      class="fas fa-search-plus"></i></span>Advanced
+                  search<i class="fas fa-chevron-right ps-2"></i></a>
+              </li>
+            </ul>
+            <input type="search" class="form-control" placeholder="Search" aria-label="Search" />
+          </div>
+          <a href="#!" class="text-white"><i style="color:rgba(151, 16, 33, 1);"  class="fas fa-search ps-3"></i></a>
+        </form>
+        <ul class="navbar-nav ms-3">
+          <li class="nav-item me-3">
+            <a style="color:rgba(151, 16, 33, 1);" class="nav-link d-flex align-items-center" href='index.html'>BHSEC Summer 2024 Home Page</a>
+          </li>
+          <li class="nav-item">
+            <a style="color:rgba(151, 16, 33, 1);" class="nav-link d-flex align-items-center me-3" href='bic_webpages.html'>
+              <i class="fas fa-award pe-2"></i> Best In Class
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+
+
+<br><br>
+<!-- <hr> -->
+
+<div>
+  <h2 id="welcome_sign">The First Web Site Ever Created</h2>
+  <br>
+  <hr>
+  <br>
+  <table>
+    <tr>
+      <th class = "table_img" id="tnoor"><a href='https://tnoor768.github.io/'><img src="data:image/jpeg;base64,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"></a></th>
+      <th class = "table_img"><a href="youtube.html"><img src="#"></a></th>
+      <th class = "table_img"><a href="instagram.html"><img src="#"></a></th>
+    </tr>
+    <tr>
+      <td class = "table_heading">Tanisha Noor</td>
+      <td class = "table_heading">Name of Scholar</td>
+      <td class = "table_heading">Name of Scholar</td>
+    </tr>
+  </table>
+
+
+
+
+
+
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+  <!-- <div class="container my-5"> -->
+<br><br><br><br><br><br><br><br><br><br><br><br>
+  <footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+
+        <!-- Twitter -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+
+        <!-- Google -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+
+        <!-- Instagram -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+
+        <!-- Linkedin -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #333333;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(150, 22, 40, 0.9);">
+      © 2024 Copyright:
+      <a class="text-white" href="https://bhsec.bard.edu/manhattan/">Bard High School Early College Manhattan</a>
+
+    <!-- Copyright -->
+  </footer>
+
+  <!-- </div> -->
+  <!-- End of .container -->
+
+
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js"
+  ></script> 
+
+</body>
+
+</html>
