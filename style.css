@@ -1,0 +1,145 @@
+
+
+#welcome_sign{
+  color: rgba(151, 5, 23, 0.9);
+  font-weight:bold;
+}
+
+#course_message{
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 19px;
+}
+
+/* a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+} */
+
+.fas .fa-bars .pe-2{
+ color: red; 
+}
+
+h1{
+  color: black;
+  background-color: #ab9b9b;
+  
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+}
+
+h2{
+  text-align: center;
+}
+
+img {
+  /* width: 56%; */
+  /* height: 50%;
+  margin: 10px;
+  border: 6px solid black; */
+  /* border-radius: 20px;
+  padding: 20px; */
+}
+
+#welcome_group{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.class_selector{
+  background-color: orange;
+  font-size: 10pt;
+  
+}
+
+/* The search bar and button */
+#special {
+  background-color: green;
+  border: 3px solid black;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  cursor: progress;
+}
+
+/* how to make tables and insert images into table */
+table, th, td {
+  /* border: 1px solid black; */
+  
+}
+table{
+  width: 95%;
+}
+
+tr {
+  text-align: center;
+}
+
+.table_img{
+  text-align: center;
+}
+.table_heading{
+  font-size: 30px;
+  font-weight: bold;
+  color:rgba(151, 16, 33, 1);
+  text-align: center;
+}
+.table_link{
+  color: rgba(151, 16, 33, 1);
+  background-color: transparent;
+  text-decoration: none;
+  text-align: left;
+}
+.table_message{
+  font-size: 19px;
+  /* text-align: ; */
+}
+
+
+
+/* nav bar */
+.navbar-dark .nav-item .nav-link {
+  color: #fff;
+  
+}
+
+.navbar-dark .nav-item .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  border-radius: 0.25rem;
+  color: #fff;
+}
+
+.fa-li {
+  position: relative;
+  left: 0;
+}
+
+
+body {
+}
+
+
+
+/* footer */
+footer{
+  
+  position: static;
+  margin-top: 100px;
+  padding-top: 100px;
+  left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
