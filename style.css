@@ -1,8 +1,13 @@
 
-
+/* index css  */
 #welcome_sign{
   color: rgba(151, 5, 23, 0.9);
   font-weight:bold;
+}
+
+/* group photo*/
+#welcome_group{
+  width: 75%;
 }
 
 #course_message{
@@ -10,6 +15,139 @@
   margin: 10px;
   padding: 10px;
   font-size: 19px;
+}
+
+
+/* intranet css  */
+#intranet1{
+  width: 70%;
+}
+#int1{
+ width: 400px;
+}
+#intranet2{
+  width: 70%;
+}
+#int2{
+  width: 400px;
+}
+#intranet3{
+  width: 70%;
+}
+#int3{
+  width: 400px;
+}
+#intranet4{
+  width: 60%;
+}
+#int4{
+  width: 400px;
+}
+#intranet5{
+  width: 60%;
+}
+#int5{
+  width: 400px;
+}
+#intranet6{
+  width: 50%;
+}
+#int6{
+  width: 400px;
+}
+#intranet7{
+  width: 60%;
+}
+#int7{
+  width: 400px;
+}
+#intranet8{
+  width: 80%;
+}
+#int8{
+  width: 400px;
+}
+#intranet9{
+  width: 50%;
+}
+#int9{
+  width: 400px;
+}
+#intranet10{
+  width: 40%;
+}
+#int10{
+  width: 400px;
+}
+#intranet11{
+  width: 80%;
+}
+#int11{
+  width: 400px;
+}
+#intranet12{
+  width: 70%;
+}
+#int12{
+  width: 400px;
+}
+#intranet13{
+  width: 70%;
+}
+#int13{
+  width: 400px;
+}
+#intranet14{
+  width: 70%;
+}
+#int14{
+  width: 400px;
+}
+#intranet15{
+  width: 70%;
+}
+#int15{
+  width: 400px;
+}
+#intranet16{
+  width: 15%;
+}
+#int16{
+  width: 400px;
+}
+
+/* amazon css */
+#jhoades{
+  width: 400px;
+}
+#jhoades1{
+  width: 90%;
+}
+#achen{
+  width: 400px;
+}
+#achen1{
+  width: 80%;
+}
+#jdasgupta{
+  width: 400px;
+}
+#jdasgupta1{
+  width: 80%;
+}
+#arammy{
+  width: 400px;
+}
+#arammy1{
+  width: 25%;
+}
+
+/* h&m css */
+#rrodela{
+  width: 100%;
+}
+#rrodela1{
+  width: 400px;
 }
 
 /* a:link {
@@ -71,6 +209,8 @@ img {
   cursor: progress;
 }
 
+
+
 /* how to make tables and insert images into table */
 table, th, td {
   /* border: 1px solid black; */
@@ -103,6 +243,8 @@ tr {
   font-size: 19px;
   /* text-align: ; */
 }
+
+
 
 
 
